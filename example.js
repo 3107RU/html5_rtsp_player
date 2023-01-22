@@ -12,8 +12,9 @@ getTagged("mse").setLevel(LogLevel.Debug);
 let wsTransport = {
     constructor: WebsocketTransport,
     options: {
-        socket: "wss://specforge.com/ws/"
-        // socket: "ws://localhost:8080/ws/"
+        //socket: "wss://specforge.com/ws/"
+        //socket: "ws://localhost:8080/ws/"
+        socket: "ws://localhost:1104/"
     }
 };
 

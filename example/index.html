@@ -225,7 +225,7 @@ To activate key, please, use the activation application that is placed:
         }
 
         var playerOptions = {
-            socket: "ws://localhost:8088/ws/",
+            socket: "ws://localhost:1104/",
             redirectNativeMediaErrors : true,
             bufferDuration: 30,
             errorHandler: errHandler,
@@ -289,10 +289,10 @@ To activate key, please, use the activation application that is placed:
             bufferRange.value     =  player.bufferDuration;
             bufferValue.innerHTML = bufferRange.value + "sec.";
 
-            continuousFileLength.value = player.continuousRecording.fileLength;
+            //continuousFileLength.value = player.continuousRecording.fileLength;
             continuousFileLengthLabel.innerText = `${continuousFileLength.value / 1000} sec.`;
 
-            eventFileLength.value = player.eventRecording.fileLength;
+            //eventFileLength.value = player.eventRecording.fileLength;
             event_file_length_label.innerText = `${eventFileLength.value / 1000} sec.`;
         };
 

@@ -11,7 +11,8 @@ getTagged("client:rtsp").setLevel(LogLevel.Error);
 let wsTransport = {
     constructor: WebsocketTransport,
     options: {
-        socket: "ws://127.0.0.1:8080/ws/"
+        //socket: "ws://127.0.0.1:8080/ws/"
+        socket: "ws://localhost:1104/"
     }
 };
 
